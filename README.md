@@ -25,11 +25,7 @@ Converting g-code to arduino, a specific design that works
 A proper design 
 - There are 3 examples we're going off of
 
-![First Example](Scaraarm.png)
 
-![Second Example](Armexample.png)
-
-![Third Example](Armexample2.png)
 
 
 Having an arm that moves with a sturdy base/arm
