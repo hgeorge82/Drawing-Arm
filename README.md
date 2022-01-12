@@ -24,6 +24,14 @@ Converting g-code to arduino, a specific design that works
 - g-code was hard to code so we found a grbl repository that is compatible with the universal grbl convertor. In doing so this makes it easier to convert the code.
 A proper design 
 - There are 3 examples we're going off of
+
+![First Example](Scaraarm.png)
+
+![Second Example](Armexample.png)
+
+![Third Example](Armexample2.png)
+
+
 Having an arm that moves with a sturdy base/arm
 -
 Having the arm move with g-code coordinates converted to polar coordinates
