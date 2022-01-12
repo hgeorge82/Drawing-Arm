@@ -1,10 +1,10 @@
 # Scara Drawing-Arm
 
 ## ...
-The purpose of this project is to make a scara robot arm that will a specific image. Using G-code format and interpreting it through arduino. Using a grbl github helps not go through the trouble of converting g-code to arduino, instead it does it for us.
+This project is to make a Scara drawing arm that will draw an image, specifically the sigma lab logo. 
 
 
-## Supplies 
+##...
 -2 stepper motors
 -A servo 
 -Arcylic 3mm
@@ -12,6 +12,9 @@ The purpose of this project is to make a scara robot arm that will a specific im
 -Arduino
 -Arduino cnc shield
 -Stepper motor driver board
+-grbl repository
+-
+
 
 ## Milestones?
 Converting g-code to arduino, a specific design that works
