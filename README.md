@@ -1,11 +1,11 @@
 # Scara Drawing-Arm
 
-## header
+## Problem
 
-This project is to make a Scara drawing arm that will draw an image, specifically the sigma lab logo. 
+To make a Scara drawing arm that will draw an image, specifically the sigma lab logo. 
 
 
-## header
+## Supplies needed
 
 -2 stepper motors
 -A servo 
@@ -22,22 +22,21 @@ This project is to make a Scara drawing arm that will draw an image, specificall
 
 Converting g-code to arduino, a specific design that works
 - g-code was hard to code so we found a grbl repository that is compatible with the universal grbl convertor. In doing so this makes it easier to convert the code.
-A proper design 
-- There are 3 examples we're going off of
 
-![Example 1](Armexample.png)
+A proper design 
+- There are 3 examples we're going off of and from these 3 examples we combined them and created a rough sketch of what would it would look like.
+
+![Example 1](prototype.png)
 ![Example 2](Armexample2.png)
 ![Example 3](Scaraarm.png)
-
-
+![Rough sketch](Writtenplan)
 
 Having an arm that moves with a sturdy base/arm
--
+- tbd
 Having the arm move with g-code coordinates converted to polar coordinates
--
+- tbd
 Finalize code
--
-
+- tbd
 
 
 ## Timeline?
