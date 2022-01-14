@@ -24,9 +24,10 @@ Converting g-code to arduino, a specific design that works
 - g-code was hard to code so we found a grbl repository that is compatible with the universal grbl convertor. In doing so this makes it easier to convert the code.
 A proper design 
 - There are 3 examples we're going off of
-![Example 1](file:///C:/Users/hgeorge82/Pictures/Armexample.png)
-![Example 2](file:///C:/Users/hgeorge82/Pictures/Armexample2.png)
-![Example 3](file:///C:/Users/hgeorge82/Pictures/Scaraarm.png)
+
+![Example 1](Armexample.png)
+![Example 2](Armexample2.png)
+![Example 3](Scaraarm.png)
 
 
 
