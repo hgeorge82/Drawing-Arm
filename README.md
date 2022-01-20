@@ -30,7 +30,8 @@ Command the arm to move using g-code
 https://github.com/jared-hughes/grbl-scara
 
 Prototype/plan arm
-![3D model]()
+![3D model](3D arm model.png)
+
 A description 
  It will mainly be made up of arcylic and an extra 3D printed piece. The base of the arm is simply a box with the dimensions of... The design is still a work in progress but orignally it was going to model Example 3. However, the base will be different and more of a boxy shape. There are 3 examples we're going off of and from these 3 examples we combined them and created a rough sketch of what would it would look like. Our plan originally was to use servos to control the arms movement, but soon realiized it would be a problem. Stepper motors will control the arms movement way better. Either a servo on the end of the arm to control the writing utensil, or have the arm on a liftable base to reduce weight on the arm. The actual arm part will be connected with a gear and will be moved with belts. The length of the arm... Our design is still changing as we go. The first arm will be two arcylic pieces bolted together and in between that will be the gear attached to the arm that will hold the drawing utensil. The arm part will have a stepper motor and on top of it will be a mount on top of a mount held together by screws with a piece in the middle to give it more stability. With that stability it helps prevents the arm from toppling over from added weight. 
 
