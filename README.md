@@ -30,6 +30,7 @@ Command the arm to move using g-code
 https://github.com/jared-hughes/grbl-scara
 
 Prototype/plan arm
+
 ![3D model](3D arm model.png)
 
 A description 
