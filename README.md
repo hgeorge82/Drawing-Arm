@@ -25,7 +25,7 @@ Having an arm that moves with a sturdy base/arm
 Having the arm move with g-code coordinates converted to polar coordinates
 Finalize code
 
-Description
+## Description
 
 The arm will be controlled using two stepper motors. Either a servo on the end of the arm to control the writing utensil, or have the arm on a liftable base to reduce weight on the arm. The drawing part of the arm will be connected with a gear and will be moved with belts. On top of one of the stepper motors it starts of with a 3D printed piece sandwiched between two rings. On top of those rings starts the arm. The arm consists of two piece arcylic conncted with bolts. On top of those pieces is a stepper motor place previously where the other one is. Also the drawing arm piece that's connected by a gear and will be moved with belts. 135mm drawing piece, 135mm arm parts, 45mm diameter ring, 31.831mm diameter gears, 12.7mm apart are the two pieces. It will mainly be made up of arcylic with the addition of some 3d printed parts.
 
