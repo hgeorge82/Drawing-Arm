@@ -17,11 +17,11 @@ To make a Scara drawing arm that will draw an image, specifically the sigma lab 
 - Plan and research code
 Realized coding this was going to be hard, so using a grbl repository, we found an outline that does the coding for us. G-code is the code that's compatible with a scara arm. The code was a bit tricky to control on our own so we found a grbl repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![grbl screenshot](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png)
 
-This is the universal G code, using this code we input the stepper motor code which basically does all the work for us. The universal G code takes the stpper motor code and transfers it, so instead of drawing lines it draws an image. Using the X, Y, and Z coordinates the drawing utensil can go to any part of the paper. 
+This is the universal G code, using this code we input the stepper motor code which basically does all the work for us. The universal G code takes the setpper motor code and transfers it, so instead of drawing lines it draws an image. Using the X, Y, and Z coordinates the drawing utensil can go to any part of the paper. 
 Import g code, a small sketch to help
 
 - Prototype/plan arm
-![Onshape link](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Assembled%203D%20arm.png) ![Gif](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/SM2.gif)![Gif](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/SM.gif) 
+![Onshape](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Assembled%203D%20arm.png) ![Gif](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/SM2.gif)![Gif](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/SM.gif) 
 
 The design started of as an exact copy of another arm, but materials were limited and plans didn't work out. Eventually we made an easier version as shown in the picture above. This version has two pieces of arcylic with one stepper motor on one of them. 
 
@@ -32,13 +32,7 @@ There are 4 colored wires, Green, Yellow, Red, and Gray and on the CNC shield th
 - Design arm
 The arm will be controlled using two stepper motors. Either a servo on the end of the arm to control the writing utensil, or have the arm on a liftable base to reduce weight on the arm. The drawing part of the arm will be connected with a gear and will be moved with belts. One stepper motor has a connetable piece to the first layer of the arm. On the other segment a stepper motor is placed using a mount. The two layers are connected using standoffs. The actual drawing part is connected using a mm gear and a belt. On the end of that drawing part thers'a a servo attached which will control the drawing utensil. 
 
-- Adapter 
-- Stepper mount
-- Servo mount
-- arm segment 1
-- arm segment 2
-- Final design
-- spur gear 50 teeth
+## Final Design
 
 The arm is controlled by using stepper motors. Either a servo on the end of the arm to control the writing utensil or have the arm on a liftable base to reduce weight on the arm. One arm segment will be conncted to a stepper motor using an adapter. The other arm segment will have a stepper mount to connect the stepper motor. Those two segments will be held together using standoffs. The drawing segment has a servo on the end with a servo mount, connected with a mm gear and a belt.
 ![Final Design](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Final.png)  
