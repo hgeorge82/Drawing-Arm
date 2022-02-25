@@ -44,6 +44,7 @@ The arm will be controlled using two stepper motors. Either a servo on the end o
 The arm is controlled by using stepper motors. Either a servo on the end of the arm to control the writing utensil or have the arm on a liftable base to reduce weight on the arm. One arm segment will be conncted to a stepper motor using an adapter. The other arm segment will have a stepper mount to connect the stepper motor. Those two segments will be held together using standoffs. The drawing segment has a servo on the end with a servo mount, connected with a mm gear and a belt.
 ![Final Design](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Final.png)  
 
+## Problems
 
 
 
