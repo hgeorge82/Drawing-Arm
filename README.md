@@ -1,10 +1,11 @@
 # Scara Drawing-Arm
 
 ## Table of Contents
-* [Goal](#Goal)
-* [Supplies](#Supplies)
-* [Milestones](#Milestones)
-* [Final Design](#Final Design)
+* [Goal](https://github.com/hgeorge82/Drawing-Arm#goal)
+* [Supplies](https://github.com/hgeorge82/Drawing-Arm#supplies)
+* [Milestones](https://github.com/hgeorge82/Drawing-Arm#milestones)
+* [Final Design](https://github.com/hgeorge82/Drawing-Arm#final-design)
+* [Problems](https://github.com/hgeorge82/Drawing-Arm/blob/main/README.md#problems)
 
 ## Goal
 To make a Scara drawing arm that will draw an image, specifically the sigma lab logo. ![Sigma logo](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Chs%20sigmalogo.png)
@@ -44,7 +45,15 @@ The arm will be controlled using two stepper motors. Either a servo on the end o
 The arm is controlled by using stepper motors. Either a servo on the end of the arm to control the writing utensil or have the arm on a liftable base to reduce weight on the arm. One arm segment will be conncted to a stepper motor using an adapter. The other arm segment will have a stepper mount to connect the stepper motor. Those two segments will be held together using standoffs. The drawing segment has a servo on the end with a servo mount, connected with a mm gear and a belt.
 ![Final Design](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Final.png)  
 
-## Problems
+
+## Problems we encountered 
+Grbl scara was not working with UGS. In order for the stepper motors to work we needed the UGS and grbl scara. Only regular grbl was compatible with the UGS and that's not what we needed. To overcome this problem we tried switching computers to see if the computer was the problem, it wasn't. Next we tried to switch the arduino board underneath the CNC shield, that also didn't work. Next we tried using a different. Measurements were of on our 3D printed parts. Our 3D printed parts were not meausured properly and some of the holes were off. To fix this problem we used a file to file the hole open and make it fit. *Don't meausre with a ruler to get an exact measurement, use a calibrator.* We struggled with this because our original design was going to make the motion harder to do.  So to fix this decided to change our design and use belts to move the drawing piece. 
+As said before our design made the motion complicated as well as an unequal distribution of weight and we didn't want the arm to tilt any more than it has too. 
+
+
+
+
+
 
 
 
