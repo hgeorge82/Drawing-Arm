@@ -1,4 +1,4 @@
-# Scara Drawing-Arm
+# SCARA Drawing-Arm
 
 ## Table of Contents
 * [Goal](https://github.com/hgeorge82/Drawing-Arm#goal)
@@ -8,7 +8,7 @@
 * [Problems](https://github.com/hgeorge82/Drawing-Arm/blob/main/README.md#problems)
 
 ## Goal
-To make a Scara drawing arm that will draw an image, specifically the sigma lab logo. ![Sigma logo](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Chs%20sigmalogo.png)
+To make a SCARA drawing arm that will draw an image, specifically the sigma lab logo. ![Sigma logo](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Chs%20sigmalogo.png)
 
 ## Supplies 
 - 2 stepper motors
@@ -18,20 +18,20 @@ To make a Scara drawing arm that will draw an image, specifically the sigma lab 
 - Arduino
 - Arduino cnc shield
 - Stepper motor driver board
-- grbl repository
+- GRBL repository
 
 ## Milestones
 - Plan and research code (Import g code, a small sketch to help)
-Realized coding this was going to be hard, so using a grbl repository, we found an outline that does the coding for us. G-code is the code that's compatible with a scara arm. The code was a bit tricky to control on our own so we found a grbl repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![gbrl repository](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png) This is the universal G code, using this code we input the stepper motor code which basically does all the work for us. The universal G code takes the setpper motor code and transfers it, so instead of drawing lines it draws an image. Using the X and Y coordinates the drawing utensil can go to any part of the paper. This is basically the "code" we needed for the stepper motors to work. The "code" is just the grbl being installed onto arduino. ![grbl scara on arduino](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20.png) 
+Realized coding this was going to be hard, so using a GRBL repository, we found an outline that does the coding for us. G-code is the code that's compatible with a SCARA arm. The code was a bit tricky to control on our own so we found a GRBL repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![GRBL repository](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png) This is the universal G code, using this code we input the stepper motor code which basically does all the work for us. The universal G code takes the stepper motor code and transfers it, so instead of drawing lines it draws an image. Using the X and Y coordinates the drawing utensil can go to any part of the paper. This is basically the "code" we needed for the stepper motors to work. The "code" is just the GRBL being installed onto Arduino. ![GRBL SCARA on Arduino](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20.png) 
 
--  Using grbl with a cnc shield
-[Grbl instructions](https://howtomechatronics.com/tutorials/how-to-setup-grbl-control-cnc-machine-with-arduino/)
-- download grbl firmware from github
+-  Using GRBL with a cnc shield
+[GRBL instructions](https://howtomechatronics.com/tutorials/how-to-setup-grbl-control-cnc-machine-with-arduino/)
+- download GRBL firmware from github
 - open it and download as a zip 
 - open and extract the zip file
 - sketch, include library, add zip library
-- Open the grbl master file, then open the grbl file
-- file, examples, grbl, grbl upload 
+- Open the GRBL master file, then open the GRBL file
+- file, examples, GRBL, GRBL upload 
 
 - Prototype/plan arm
 [Onshape Link](https://cvilleschools.onshape.com/documents/90eec8ce9347071a23da6ff8/w/5e25fa67b4affd436208f593/e/c3920ec5b868799cd839cf0a)
@@ -54,7 +54,7 @@ The arm is controlled by using stepper motors. Either a servo on the end of the 
 
 ## Problems we encountered 
 
-Grbl scara was not working with UGS. In order for the stepper motors to work we needed the UGS and grbl scara. Only regular grbl was compatible with the UGS and that's not what we needed. To overcome this problem we tried switching computers to see if the computer was the problem, it wasn't. Next we tried to switch the arduino board underneath the CNC shield, that also didn't work. Next we tried using a different. Measurements were of on our 3D printed parts. Our 3D printed parts were not meausured properly and some of the holes were off. To fix this problem we used a file to file the hole open and make it fit. *Don't meausre with a ruler to get an exact measurement, use a calibrator.* We struggled with this because our original design was going to make the motion harder to do.  So to fix this decided to change our design and use belts to move the drawing piece. 
+GRBL SCARA was not working with UGS. In order for the stepper motors to work we needed the UGS and GRBL SCARA. Only regular GRBL was compatible with the UGS and that's not what we needed. To overcome this problem we tried switching computers to see if the computer was the problem, it wasn't. Next we tried to switch the arduino board underneath the CNC shield, that also didn't work. Next we tried using a different. Measurements were of on our 3D printed parts. Our 3D printed parts were not meausured properly and some of the holes were off. To fix this problem we used a file to file the hole open and make it fit. *Don't meausre with a ruler to get an exact measurement, use a calibrator.* We struggled with this because our original design was going to make the motion harder to do.  So to fix this decided to change our design and use belts to move the drawing piece. 
 As said before our design made the motion complicated as well as an unequal distribution of weight and we didn't want the arm to tilt any more than it has too. 
 
 
