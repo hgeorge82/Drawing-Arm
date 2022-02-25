@@ -22,10 +22,16 @@ To make a Scara drawing arm that will draw an image, specifically the sigma lab 
 
 ## Milestones
 - Plan and research code (Import g code, a small sketch to help)
-Realized coding this was going to be hard, so using a grbl repository, we found an outline that does the coding for us. G-code is the code that's compatible with a scara arm. The code was a bit tricky to control on our own so we found a grbl repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![gbrl repository](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png) This is the universal G code, using this code we input the stepper motor code which basically does all the work for us. The universal G code takes the setpper motor code and transfers it, so instead of drawing lines it draws an image. Using the X and Y coordinates the drawing utensil can go to any part of the paper. This is basically the "code" we needed for the stepper motors to work. The "code" is just the grbl being installed onto arduino.
+Realized coding this was going to be hard, so using a grbl repository, we found an outline that does the coding for us. G-code is the code that's compatible with a scara arm. The code was a bit tricky to control on our own so we found a grbl repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![gbrl repository](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png) This is the universal G code, using this code we input the stepper motor code which basically does all the work for us. The universal G code takes the setpper motor code and transfers it, so instead of drawing lines it draws an image. Using the X and Y coordinates the drawing utensil can go to any part of the paper. This is basically the "code" we needed for the stepper motors to work. The "code" is just the grbl being installed onto arduino. ![grbl scara on arduino](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20.png) 
 
-![grbl scara on arduino](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20.png) 
-
+-  Using grbl with a cnc shield
+[Grbl instructions](https://howtomechatronics.com/tutorials/how-to-setup-grbl-control-cnc-machine-with-arduino/)
+- download grbl firmware from github
+- open it and download as a zip 
+- open and extract the zip file
+- sketch, include library, add zip library
+- Open the grbl master file, then open the grbl file
+- file, examples, grbl, grbl upload 
 
 - Prototype/plan arm
 [Onshape Link](https://cvilleschools.onshape.com/documents/90eec8ce9347071a23da6ff8/w/5e25fa67b4affd436208f593/e/c3920ec5b868799cd839cf0a)
@@ -34,7 +40,7 @@ Realized coding this was going to be hard, so using a grbl repository, we found 
 The design started of as an exact copy of another arm, but materials were limited and plans didn't work out. Eventually we made an easier version as shown in the picture above. This version has two pieces of arcylic with one stepper motor on one of them. 
 
 - Stepper Motor wiring 
-There are 4 colored wires, Green, Yellow, Red, and Gray and on the CNC shield there are A1/A2 pins and B1/B2 pins. Red goes to A2 and Yellow goes to A1 while Grey goes to B2 and Green goes to B1
+The stepper motor has 4 colored wires Green, Yellow, Red, and Gray. The CNC shield there has A1/A2 pins and B1/B2 pins. Red goes to A2 and Yellow goes to A1 while Grey goes to B2 and Green goes to B1.
 [Wiring](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Wiring.png)![Wiring](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Up%20close%20wiring.png)
 
 - Design arm
