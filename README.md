@@ -1,5 +1,6 @@
 # SCARA Drawing-Arm
-
+https://docs.google.com/document/d/13lnMmdcYeAJbSnfNuPvhkwxSMNHf0qwHTNE0D3j-VtA/edit?scrlybrkr=b64f7e89 
+https://docs.google.com/document/d/1MwR5_72Ead33QBmqT0MzvE6zn0iQCVVRf9_fdk6CliI/edit
 ## Table of Contents
 * [Goal](https://github.com/hgeorge82/Drawing-Arm#goal)
 * [Supplies](https://github.com/hgeorge82/Drawing-Arm#supplies)
