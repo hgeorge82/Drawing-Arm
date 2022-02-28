@@ -21,7 +21,7 @@ To make a SCARA drawing arm that will draw an image, specifically the sigma lab 
 - GRBL repository
 
 ## Milestones
-- Plan and research code (Import g code, a small sketch to help)
+- Plan and research code 
 
 We realized coding this was going to be hard, so using a GRBL repository, we found an outline that does the coding for us. G-code is the code that's compatible with a SCARA arm. The code was a bit tricky to control on our own so we found a GRBL repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![GRBL repository](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png)
 
