@@ -1,6 +1,5 @@
 # SCARA Drawing-Arm
-https://docs.google.com/document/d/13lnMmdcYeAJbSnfNuPvhkwxSMNHf0qwHTNE0D3j-VtA/edit?scrlybrkr=b64f7e89 
-https://docs.google.com/document/d/1MwR5_72Ead33QBmqT0MzvE6zn0iQCVVRf9_fdk6CliI/edit
+
 ## Table of Contents
 * [Goal](https://github.com/hgeorge82/Drawing-Arm#goal)
 * [Supplies](https://github.com/hgeorge82/Drawing-Arm#supplies)
@@ -59,6 +58,9 @@ The arm will be controlled using two stepper motors. Either a servo on the end o
 ## Problems we encountered 
 
 GRBL SCARA was not working with UGS. Only regular GRBL was compatible with the UGS and that's not what we needed. To try and fix this problem we tried switching computers to see if the computer was the problem, it wasn't. Next, we tried to switch the Arduino board underneath the CNC shield, that also didn't work. Next, we tried using a different version of GRBL, that also didn't work. After many attempts to fix this problem, it still kept showing an "Alarm" on the UGS screen. This problem did not get resolved before the deadline. Measurements were off on our 3D printed parts. Our 3D printed parts were not measured properly and some of the holes were off. To fix this problem we used a file to file the hole open and make it fit. *Don't measure with a ruler to get an exact measurement, use a calibrator* We encountered problems with the range of motion and unequal weight distribution on the arm, so we changed the design. Instead of using a worm, we decided to use a gear with a belt.
+
+[Planning Doc]https://docs.google.com/document/d/13lnMmdcYeAJbSnfNuPvhkwxSMNHf0qwHTNE0D3j-VtA/edit?scrlybrkr=b64f7e89 
+[Plannig Doc2]https://docs.google.com/document/d/1MwR5_72Ead33QBmqT0MzvE6zn0iQCVVRf9_fdk6CliI/edit
 
 
 
