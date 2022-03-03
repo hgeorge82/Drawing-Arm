@@ -23,7 +23,7 @@ To make a SCARA drawing arm that will draw an image, specifically the sigma lab 
 ## Milestones
 - Plan and research code 
 
-We realized coding this was going to be hard, so using a GRBL repository, we found an outline that does the coding for us. G-code is the code that's compatible with a SCARA arm. The code was a bit tricky to control on our own so we found a GRBL repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![GRBL repository](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png)
+We realized coding this was going to be hard, so with a lot of research we found a GRBL repo that does all the work for us. G-code is the code that's compatible with a SCARA arm. The code was a bit tricky to control on our own so we found a GRBL repository which led to using G code.![UGcode](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/UGScreenshot.png) ![GRBL repository](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/grbl%20screenshot.png)
 
 This is the universal G code and the GRBL repo. Following the instructions with this link 
 [GRBL instructions](https://howtomechatronics.com/tutorials/how-to-setup-grbl-control-cnc-machine-with-arduino) it was pretty simple to understand. The universal G code takes the GRBL and transfers it, so instead of drawing lines, it draws an image. Using the X and Y coordinates the drawing utensil can go to any part of the paper. This is basically the "code" we needed for the stepper motors to work. The "code" is just the GRBL being installed onto Arduino. 
