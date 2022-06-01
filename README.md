@@ -70,7 +70,7 @@ GRBL SCARA was not working with UGS. Only regular GRBL was compatible with the U
 
 -Controlling stepper motors with potentiometers (lengthy description)
 -
-
+![Code](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/CodeScreenshot1.png)
 
 
 
