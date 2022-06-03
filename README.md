@@ -55,20 +55,15 @@ The stepper motor has 4 colored wires Green, Yellow, Red, and Gray. The CNC shie
 
 The arm will be controlled using two stepper motors. Either a servo on the end of the arm to control the writing utensil, or have the arm on a liftable base to reduce weight on the arm. The drawing part of the arm will be connected with a gear and will be moved with belts. One stepper motor has a connectable piece to the first layer of the arm. On the other segment, a stepper motor is placed using a stepper motor mount. The two layers are connected using standoffs. The actual drawing part is connected using an mm gear and a belt. At the end of that drawing part, there's a servo attached which will control the drawing utensil. 
 
-## Final Design
-
-![Final Design](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/Final.png)  
-![Halfway finished design](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/IRL_Final.png)
-
-
 ## Problems we encountered 
 
 GRBL SCARA was not working with UGS. Only regular GRBL was compatible with the UGS and that's not what we needed. To try and fix this problem we tried switching computers to see if the computer was the problem, it wasn't. Next, we tried to switch the Arduino board underneath the CNC shield, that also didn't work. Next, we tried using a different version of GRBL, that also didn't work. After many attempts to fix this problem, it still kept showing an "Alarm" on the UGS screen. This problem did not get resolved before the deadline. Measurements were off on our 3D printed parts. Our 3D printed parts were not measured properly and some of the holes were off. To fix this problem we used a file to file the hole open and make it fit. *Don't measure with a ruler to get an exact measurement, use a calibrator* We encountered problems with the range of motion and unequal weight distribution on the arm, so we changed the design. Instead of using a worm, we decided to use a gear with a belt.
+
 ![Code](https://github.com/hgeorge82/Drawing-Arm/blob/main/images/CodeScreenshot1.png)
 
 
 ## New Goal
-Make a scara drawing arm that will draw anything the user wants with potentiometers.
+Make a scara drawing arm that will draw anything(probaby a line) the user wants with potentiometers.
 
 ## New Changes 
 We changed the way the stepper motors are controlled. Our original idea was to use GRBL SCARA and UGS to control the stepper motors. There was something that just wasn't working and we couldn't find anything that could solve our problem. Instead, we decided to control the stepper motors with potentionemters like an Etch-A-sketch. Most of the design intent samed the same, like the box, the steppermotor parts, and the servo parts. 
@@ -79,6 +74,8 @@ New Code
 
 ## Final Design
 The arm is controlled by using two potentiometers. Like an Etch-A-Sketch it will draw anything that the user wants to draw if they turn the potentiometers. The arm part consists of a steeper motor inside the box. The stepper motor is mounted to fit using a stepper holder. On top of that steppermotor is an adapter. On top of that adapter is the arm. The arm consists of to bases connected together with the use of brackets. The actual arm part that will draw is connected with a gear and a belt. At the end of the arm there is a servo with a servo holder/mount thing.
+
+## Reflection
 
 
 
