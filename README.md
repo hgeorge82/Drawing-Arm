@@ -66,7 +66,7 @@ GRBL SCARA was not working with UGS. Only regular GRBL was compatible with the U
 Make a scara drawing arm that will draw anything(probaby a line) the user wants with potentiometers.
 
 ## New Changes 
-We changed the way the stepper motors are controlled. Our original idea was to use GRBL SCARA and UGS to control the stepper motors. There was something that just wasn't working and we couldn't find anything that could solve our problem. Instead, we decided to control the stepper motors with potentionemters like an Etch-A-sketch. Most of the design intent samed the same, like the box, the steppermotor parts, and the servo parts. 
+We changed the way the stepper motors are controlled. Our original idea was to use GRBL SCARA and UGS to control the stepper motors. There was something that just wasn't working and we couldn't find anything that could solve our problem.To fix this probelm, we decided to control the stepper motors with potentionemters like an Etch-A-sketch. Most of the design intent stayed the same like the box, the steppermotor parts, and the servo parts. 
 
 
 New Code
