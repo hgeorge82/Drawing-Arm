@@ -81,7 +81,6 @@ The arm is controlled by using two potentiometers. Like an Etch-A-Sketch it will
 ## Reflection
 
 #### Hope  
-Working on this project taught me to utilize research more. Google was a real help throughout this entire project. There were a lot of things that I didn't know before going into this project. GRBL SCARA, UGS, stepper motors, and understanding how robot arms work were a real trial to work with. The hardest part of this project was definitely using GRBL and UGS. A lot of research went into figuring how it works with stepper motors and how you "code" it. There was limited information on errors or problems with GRBL so when we stumbled upon a problem we could not fix it. Working on this project made me realize to not give up when things don't work. We were ready to give up on our project, if not for Mr.H we would have started writing an obituary. He made us realize that there is another way to go about this project. 
 
 
 
