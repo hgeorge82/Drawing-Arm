@@ -88,7 +88,7 @@ Working on this project taught me to utilize research more. Google was a real he
 
 #### Ian
 
-
+We encountered many roadblocks along the way and I don't think there's much to be said about the roadblocks themselves however I think what caused the most problems was our inability to move past the problems that we did have, at least in respect to the GRBL bugs. We spent probably the majority of the project time troubleshooting and figuring out the bugs only to never fully defeat it, and that's fine however by the time we settled to simply make a potentiometer based drawing arm we didn't have proper time or resources to iterate that design and make it as good as possible so we ended up with an almost unfinished drawing arm due to some problems with the design which we didn't anticipate. While we did finish the project I think it's important to note that in the future if I were to do a similar project that is so specific I would either do more of the code myself or use a firmware which I understand more so any bugs or problems are more in our wheelhouse. While the GRBL SCARA bug may have been a problem for our specific case I would still recommend different software unless you are prepared to deal with any bugs which may arise from it.
 
 
 
